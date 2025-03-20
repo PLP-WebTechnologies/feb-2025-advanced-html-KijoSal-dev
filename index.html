@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML5 Implementation</title>
+    <style>
+        /* Basic styling for the elements */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        input[type="radio"], input[type="checkbox"] {
+            width: auto;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HTML5 week2 Implementation</h1>
+
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List</h2>
+    <ol type="I">
+        <li>Software Engineering</li>
+        <li>Fullstack development</li>
+        <li>Data science and engineering</li>
+        <li>Devops</li>
+        <li>UI/UX</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/5380792/pexels-photo-5380792.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Tech Image" width="600" />
+
+    <!-- Table of Contacts -->
+    <h2>Contacts</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sarr Gass</td>
+                <td>567 Paris France</td>
+                <td>+33690657341</td>
+                <td>sarrgass@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Joan Hugo</td>
+                <td>456 Las Vegas</td>
+                <td>+0387654321</td>
+                <td>hugoj@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Yonah Smart</td>
+                <td>789 Gravity Falls</td>
+                <td>+1122334455</td>
+                <td>Yosa@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Liu Yang</td>
+                <td>321 Hong Kong</td>
+                <td>+9988776655</td>
+                <td>Yangli@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Roman Reigns</td>
+                <td>654 Dallas </td>
+                <td>+5566778899</td>
+                <td>Reignsro@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="usa">United States</option>
+            <option value="japan">Japan</option>
+            <option value="uk">United Kingdom</option>
+            <option value="france">France</option>
+            <option value="egypt">Egypt</option>
+        </select>
+
+        <label>Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+
+    <!-- Checkboxes -->
+    <p>Interests:</p>
+    <input type="checkbox" id="coding" name="interests" value="coding">
+    <label for="coding">Coding</label><br>
+    <input type="checkbox" id="movies" name="interests" value="movies">
+    <label for="reading">Movies</label><br>
+    <input type="checkbox" id="music" name="interests" value="music">
+    <label for="music">Music</label><br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Register">
+</form>
+
+<!-- Multimedia Elements (Audio and Video - Example only) -->
+<h2>Multimedia</h2>
+
+<p><b>Audio Example :</b></p>
+<audio controls>
+    <source src="binary-code-interface-sound-effects-sci-fi-computer-ui-sounds-209403.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<p><b>Video Example :</b></p>
+<video width="320" height="240" controls>
+    <source src="27706-365890968_small.mp4" type="video/mp4">
+    Your browser does not support the video element.
+</video>
+
+</body>
+</html> 
+        
+
+       
+        
